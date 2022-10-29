@@ -1,0 +1,80 @@
+html, body {<!DOCTYPE html>
+    height:auto;
+    width: 100%;
+  }
+
+
+  #container {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+div.b {
+    height: 10px;
+    width: 15%; 
+    font-style: italic;
+    font-family: cursive;
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(167, 14, 73);
+
+}
+
+div.a {
+    height:50;
+    width:100% fit-content;
+    border-top: 2vh solid #cfebebaf;
+    border-bottom: 2vh solid #cfebebaf;
+    /*border-right: 23vw solid rgb(230, 173, 192); */
+    /*border: 5px dashed green; */
+    /*background-color: rgb(230, 173, 192);*/
+    /*background-image: url("blueberries.jpg");*/
+    color:sandybrown;
+    }
+
+body {
+    background-color: lightblue;
+    background-image: url("blueberry.webp");
+    background-repeat: no-repeat;
+  }
+
+h1 {
+    text-align:center;
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 50px;
+  
+  }
+
+  #one { 
+    display: block;
+  }
+
+
+
+    div.c {
+        height: 10px;
+        width: 30%; 
+        font-style: italic bold;
+        font-family:monospace; 
+        font-size: 25px;
+        color: rgb(167, 14, 73);
+           }
+    
+    table, th {
+        width: 340px;
+        border: 5px solid sandybrown; 
+        padding: 4px;
+        font-size: 25px;
+           }
+
+    input:invalid {
+            border: red solid 1px;
+          }
+
+  border-top: 25vh solid #ceececaf;
+
+  color:rgb(255, 174, 0)
+  color:rgb(255, 174, 0)
