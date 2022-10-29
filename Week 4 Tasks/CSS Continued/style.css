@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lexend Deca');
+@import url('https://fonts.googleapis.com/css?family=Big Shoulders Display');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 375px) {
+  
+}
+
+/* Desktop Styles */
+@media only screen and (max-width: 1440px) {
+}
+
+.flex-container {
+  display: flex;
+  width: auto;
+  background-color: hsl(0, 0%, 95%)
+  }
+
+.column1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  height: auto;
+  float: left;
+  width: 33.33%;
+  
+}
+
+.column2 {
+  background-color: hsl(184, 100%, 22%);
+  height: auto;
+  padding: 50px;
+  float: left;
+  width: 33.33%;
+  
+}
+
+.column3 {
+  background-color: hsl(179, 100%, 13%);
+  height: 1auto;
+  padding: 50px;
+  float: left;
+  width: 33.33%;
+
+}
+
+body {
+  background-color: hsl(0, 0%, 90%);
+  font-size: 15px;
+  font-family: 'Big Shoulders Display', 'Lexend Deca', 'Courier New', Courier, monospace;
+
+}
+
+img {
+  width: 40px;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  margin-top: 20px;
+    margin-bottom: 120px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1, button {
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  
+}
+
+/* Create three equal columns that float next to each other 
+.column {
+  float: left;
+  width: 33.33%;
+}*/
+
+/*button design */
+.button1 {
+  border: 2px solid;
+  padding: 5px 15px;
+  text-align: center;
+  color:hsl(31, 77%, 52%) ;
+  display: inline-block;
+  border-radius: 50px;
+}
+.button2 {
+  border: 2px solid;
+  padding: 5px 15px;
+  text-align: center;
+  color: hsl(184, 100%, 22%);
+  display: inline-block;
+  border-radius: 50px;
+}
+.button3 {
+  border: 2px solid;
+  padding: 5px 15px;
+  text-align: center;
+  color:hsl(179, 100%, 13%) ;
+  color: inline-block;
+  border-radius: 50px;
+}
+
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
